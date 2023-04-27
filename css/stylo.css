@@ -93,6 +93,11 @@ body {
   align-items: center;
 }
 
+.centered {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
 .div span {
   font-weight: bolder;
 }
@@ -109,6 +114,7 @@ body {
 
 div h3 {
   text-align: center;
+  margin-bottom: 5px;
 }
 
 div p {
@@ -121,11 +127,10 @@ div p {
   margin: 10px;
   display: flex;
   align-content: center;
-  
 }
 
+
 .div-icon img {
-  
   margin:  10px;
   border-radius: 10px;
   height: 50px;
